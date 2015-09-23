@@ -111,11 +111,11 @@
 			children = (
 				D49D4E6C1B99A66700DAC6F1 /* Adapter */,
 				D49D4E3E1B99A65E00DAC6F1 /* AppDelegate.swift */,
-				D49D4E401B99A65E00DAC6F1 /* ViewController.swift */,
-				D49D4E421B99A65E00DAC6F1 /* Main.storyboard */,
 				D49D4E451B99A65E00DAC6F1 /* Assets.xcassets */,
-				D49D4E471B99A65E00DAC6F1 /* LaunchScreen.storyboard */,
 				D49D4E4A1B99A65E00DAC6F1 /* Info.plist */,
+				D49D4E471B99A65E00DAC6F1 /* LaunchScreen.storyboard */,
+				D49D4E421B99A65E00DAC6F1 /* Main.storyboard */,
+				D49D4E401B99A65E00DAC6F1 /* ViewController.swift */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -141,20 +141,20 @@
 		D49D4E6C1B99A66700DAC6F1 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				D49D4E751B99A7DD00DAC6F1 /* Inheritance */,
 				D49D4E731B99A7B800DAC6F1 /* Delegate */,
+				D49D4E751B99A7DD00DAC6F1 /* Inheritance */,
 			);
-			name = Adapter;
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 		D49D4E731B99A7B800DAC6F1 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
 				D49D4E761B99A87500DAC6F1 /* Chairperson.swift */,
-				D49D4E781B99A8A400DAC6F1 /* Taro.swift */,
 				D49D4E7A1B99A8C700DAC6F1 /* Hanako.swift */,
+				D49D4E781B99A8A400DAC6F1 /* Taro.swift */,
 			);
-			name = Delegate;
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		D49D4E751B99A7DD00DAC6F1 /* Inheritance */ = {
@@ -164,7 +164,7 @@
 				D49D4E6E1B99A67A00DAC6F1 /* Adapter.swift */,
 				D49D4E6F1B99A67A00DAC6F1 /* Target.swift */,
 			);
-			name = Inheritance;
+			path = Inheritance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +346,7 @@
 				D49D4E431B99A65E00DAC6F1 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		D49D4E471B99A65E00DAC6F1 /* LaunchScreen.storyboard */ = {
@@ -354,6 +355,7 @@
 				D49D4E481B99A65E00DAC6F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -531,6 +533,7 @@
 				D49D4E651B99A65E00DAC6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D49D4E661B99A65E00DAC6F1 /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +542,7 @@
 				D49D4E681B99A65E00DAC6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D49D4E691B99A65E00DAC6F1 /* Build configuration list for PBXNativeTarget "DesignPatternsUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +551,7 @@
 				D49D4E6B1B99A65E00DAC6F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
