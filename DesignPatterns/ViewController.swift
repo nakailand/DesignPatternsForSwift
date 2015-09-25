@@ -12,11 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let dog = Animal(impl: DogCryImpl())
-        dog.cry()
+        let abstractFactory = AbstractFactory()
+        let mammal = abstractFactory.getSpeciesFactory(.mammal)
+        let dog = mammal.getMammal(.Dog)
+        let cat = mammal.getMammal(.Cat)
+        dog.makeSound()
+        cat.makeSound()
         
-        let cat = Animal(impl: CatCryImpl())
-        cat.cry()
+        let reptile = abstractFactory.getSpeciesFactory(.reptile)
+        let snake = reptile.getReptile(.Snake)
+        let tyrannosaurus = reptile.getReptile(.Tyrannosaurus)
+        snake.makeSound()
+        tyrannosaurus.makeSound()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

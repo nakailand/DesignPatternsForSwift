@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D413594F1BB4EDF5002E2FBE /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413594E1BB4EDF5002E2FBE /* Snake.swift */; settings = {ASSET_TAGS = (); }; };
+		D41359511BB4EDFE002E2FBE /* Tyrannosaurus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41359501BB4EDFE002E2FBE /* Tyrannosaurus.swift */; settings = {ASSET_TAGS = (); }; };
+		D45CE1001BB4E6F100643305 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CE0FF1BB4E6F100643305 /* AbstractFactory.swift */; settings = {ASSET_TAGS = (); }; };
+		D45CE1021BB4E73F00643305 /* SpeciesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CE1011BB4E73F00643305 /* SpeciesFactory.swift */; settings = {ASSET_TAGS = (); }; };
+		D45CE1041BB4E76C00643305 /* AnimalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CE1031BB4E76C00643305 /* AnimalProtocol.swift */; settings = {ASSET_TAGS = (); }; };
+		D45CE1061BB4E84E00643305 /* MammalFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CE1051BB4E84E00643305 /* MammalFactory.swift */; settings = {ASSET_TAGS = (); }; };
+		D45CE1081BB4E86700643305 /* ReptileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CE1071BB4E86700643305 /* ReptileFactory.swift */; settings = {ASSET_TAGS = (); }; };
+		D45CE10A1BB4EA6700643305 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CE1091BB4EA6700643305 /* Cat.swift */; settings = {ASSET_TAGS = (); }; };
+		D45CE10C1BB4EA7600643305 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CE10B1BB4EA7600643305 /* Dog.swift */; settings = {ASSET_TAGS = (); }; };
 		D49D4E3F1B99A65E00DAC6F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D4E3E1B99A65E00DAC6F1 /* AppDelegate.swift */; };
 		D49D4E411B99A65E00DAC6F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D4E401B99A65E00DAC6F1 /* ViewController.swift */; };
 		D49D4E441B99A65E00DAC6F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49D4E421B99A65E00DAC6F1 /* Main.storyboard */; };
@@ -44,6 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D413594E1BB4EDF5002E2FBE /* Snake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		D41359501BB4EDFE002E2FBE /* Tyrannosaurus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tyrannosaurus.swift; sourceTree = "<group>"; };
+		D45CE0FF1BB4E6F100643305 /* AbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		D45CE1011BB4E73F00643305 /* SpeciesFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeciesFactory.swift; sourceTree = "<group>"; };
+		D45CE1031BB4E76C00643305 /* AnimalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalProtocol.swift; sourceTree = "<group>"; };
+		D45CE1051BB4E84E00643305 /* MammalFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MammalFactory.swift; sourceTree = "<group>"; };
+		D45CE1071BB4E86700643305 /* ReptileFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReptileFactory.swift; sourceTree = "<group>"; };
+		D45CE1091BB4EA6700643305 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		D45CE10B1BB4EA7600643305 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		D49D4E3B1B99A65E00DAC6F1 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49D4E3E1B99A65E00DAC6F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D49D4E401B99A65E00DAC6F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +112,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D45CE0FE1BB4D7F200643305 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				D45CE0FF1BB4E6F100643305 /* AbstractFactory.swift */,
+				D45CE1011BB4E73F00643305 /* SpeciesFactory.swift */,
+				D45CE1051BB4E84E00643305 /* MammalFactory.swift */,
+				D45CE1071BB4E86700643305 /* ReptileFactory.swift */,
+				D45CE1031BB4E76C00643305 /* AnimalProtocol.swift */,
+				D45CE1091BB4EA6700643305 /* Cat.swift */,
+				D413594E1BB4EDF5002E2FBE /* Snake.swift */,
+				D41359501BB4EDFE002E2FBE /* Tyrannosaurus.swift */,
+				D45CE10B1BB4EA7600643305 /* Dog.swift */,
+			);
+			name = AbstractFactory;
+			sourceTree = "<group>";
+		};
 		D49D4E321B99A65E00DAC6F1 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +151,7 @@
 		D49D4E3D1B99A65E00DAC6F1 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D45CE0FE1BB4D7F200643305 /* AbstractFactory */,
 				D49D4E6C1B99A66700DAC6F1 /* Adapter */,
 				D4B390A31BB2D45600E485DD /* Bridge */,
 				D49D4E3E1B99A65E00DAC6F1 /* AppDelegate.swift */,
@@ -317,18 +352,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45CE1001BB4E6F100643305 /* AbstractFactory.swift in Sources */,
+				D41359511BB4EDFE002E2FBE /* Tyrannosaurus.swift in Sources */,
 				D49D4E411B99A65E00DAC6F1 /* ViewController.swift in Sources */,
 				D49D4E7B1B99A8C700DAC6F1 /* Hanako.swift in Sources */,
 				D4E005281BB2DA20002BDE21 /* CryImpl.swift in Sources */,
 				D49D4E791B99A8A400DAC6F1 /* Taro.swift in Sources */,
+				D45CE1021BB4E73F00643305 /* SpeciesFactory.swift in Sources */,
 				D49D4E711B99A67A00DAC6F1 /* Adapter.swift in Sources */,
 				D49D4E701B99A67A00DAC6F1 /* Adaptee.swift in Sources */,
 				D49D4E3F1B99A65E00DAC6F1 /* AppDelegate.swift in Sources */,
 				D49D4E771B99A87500DAC6F1 /* Chairperson.swift in Sources */,
 				D49D4E721B99A67A00DAC6F1 /* Target.swift in Sources */,
 				D4E005221BB2D8F7002BDE21 /* Animal.swift in Sources */,
+				D413594F1BB4EDF5002E2FBE /* Snake.swift in Sources */,
+				D45CE1081BB4E86700643305 /* ReptileFactory.swift in Sources */,
+				D45CE1061BB4E84E00643305 /* MammalFactory.swift in Sources */,
+				D45CE10A1BB4EA6700643305 /* Cat.swift in Sources */,
+				D45CE10C1BB4EA7600643305 /* Dog.swift in Sources */,
 				D4E0052A1BB2DB39002BDE21 /* DogCryImpl.swift in Sources */,
 				D4E0052C1BB2DB42002BDE21 /* CatCryImpl.swift in Sources */,
+				D45CE1041BB4E76C00643305 /* AnimalProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
