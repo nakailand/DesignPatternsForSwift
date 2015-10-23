@@ -25,6 +25,9 @@ class ViewController: UIViewController {
         snake.makeSound()
         tyrannosaurus.makeSound()
         // Do any additional setup after loading the view, typically from a nib.
+
+        let printer = Printer(strategy: UpperCaseStrategy())
+        printer.printString("Hello")
     }
 
     override func didReceiveMemoryWarning() {
