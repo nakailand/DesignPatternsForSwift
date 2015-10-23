@@ -30,6 +30,7 @@
 		D49D4E791B99A8A400DAC6F1 /* Taro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D4E781B99A8A400DAC6F1 /* Taro.swift */; settings = {ASSET_TAGS = (); }; };
 		D49D4E7B1B99A8C700DAC6F1 /* Hanako.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49D4E7A1B99A8C700DAC6F1 /* Hanako.swift */; settings = {ASSET_TAGS = (); }; };
 		D4B4ED371BD9EFFA0085CF50 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4ED361BD9EFFA0085CF50 /* Printer.swift */; settings = {ASSET_TAGS = (); }; };
+		D4B4ED3A1BD9F5A30085CF50 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4ED391BD9F5A30085CF50 /* Visitor.swift */; settings = {ASSET_TAGS = (); }; };
 		D4E005221BB2D8F7002BDE21 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E005211BB2D8F7002BDE21 /* Animal.swift */; settings = {ASSET_TAGS = (); }; };
 		D4E005281BB2DA20002BDE21 /* CryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E005271BB2DA20002BDE21 /* CryImpl.swift */; settings = {ASSET_TAGS = (); }; };
 		D4E0052A1BB2DB39002BDE21 /* DogCryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E005291BB2DB39002BDE21 /* DogCryImpl.swift */; settings = {ASSET_TAGS = (); }; };
@@ -83,6 +84,7 @@
 		D49D4E781B99A8A400DAC6F1 /* Taro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taro.swift; sourceTree = "<group>"; };
 		D49D4E7A1B99A8C700DAC6F1 /* Hanako.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hanako.swift; sourceTree = "<group>"; };
 		D4B4ED361BD9EFFA0085CF50 /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		D4B4ED391BD9F5A30085CF50 /* Visitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 		D4E005211BB2D8F7002BDE21 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		D4E005271BB2DA20002BDE21 /* CryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryImpl.swift; sourceTree = "<group>"; };
 		D4E005291BB2DB39002BDE21 /* DogCryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogCryImpl.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		D49D4E3D1B99A65E00DAC6F1 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				D4B4ED381BD9F5830085CF50 /* Visitor */,
 				8435F4441BD9DB370010CF69 /* Decorator */,
 				8435F4431BD9DB320010CF69 /* Composite */,
 				8435F4421BD9DB2B0010CF69 /* Strategy */,
@@ -255,6 +258,14 @@
 				D4E005291BB2DB39002BDE21 /* DogCryImpl.swift */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		D4B4ED381BD9F5830085CF50 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				D4B4ED391BD9F5A30085CF50 /* Visitor.swift */,
+			);
+			name = Visitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,6 +404,7 @@
 				D49D4E7B1B99A8C700DAC6F1 /* Hanako.swift in Sources */,
 				D4B4ED371BD9EFFA0085CF50 /* Printer.swift in Sources */,
 				D4E005281BB2DA20002BDE21 /* CryImpl.swift in Sources */,
+				D4B4ED3A1BD9F5A30085CF50 /* Visitor.swift in Sources */,
 				D49D4E791B99A8A400DAC6F1 /* Taro.swift in Sources */,
 				D45CE1021BB4E73F00643305 /* SpeciesFactory.swift in Sources */,
 				D49D4E711B99A67A00DAC6F1 /* Adapter.swift in Sources */,
