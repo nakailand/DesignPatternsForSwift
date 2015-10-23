@@ -112,6 +112,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8435F4411BD9DB190010CF69 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Prototype;
+			sourceTree = "<group>";
+		};
+		8435F4421BD9DB2B0010CF69 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Strategy;
+			sourceTree = "<group>";
+		};
+		8435F4431BD9DB320010CF69 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Composite;
+			sourceTree = "<group>";
+		};
+		8435F4441BD9DB370010CF69 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Decorator;
+			sourceTree = "<group>";
+		};
 		D45CE0FE1BB4D7F200643305 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +179,10 @@
 		D49D4E3D1B99A65E00DAC6F1 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				8435F4441BD9DB370010CF69 /* Decorator */,
+				8435F4431BD9DB320010CF69 /* Composite */,
+				8435F4421BD9DB2B0010CF69 /* Strategy */,
+				8435F4411BD9DB190010CF69 /* Prototype */,
 				D45CE0FE1BB4D7F200643305 /* AbstractFactory */,
 				D49D4E6C1B99A66700DAC6F1 /* Adapter */,
 				D4B390A31BB2D45600E485DD /* Bridge */,
